@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Merriweather", serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 20hv;
+}
+header > hr {
+  width: 100%;
+  margin-bottom: 10px;
+}
+nav > a {
+  text-decoration: none;
+  color: grey;
+  padding: 5px 10px;
+}
+
+.hello {
+  display: flex;
+  height: 80hv;
+}
+.helloFig {
+  margin: 30px auto;
+  width: 66%;
+  max-width: 1280px;
+  min-width: 640px;
+}
+.helloVideo {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+.helloText {
+  text-align: justify;
+  margin: 20px;
+  font-size: 1.2em;
+  line-height: 1.8em;
+  letter-spacing: 1px;
+  text-emphasis-style: ;
+}
+.helloText > a {
+  text-decoration: none;
+  color: grey;
+}
+
+.contact {
+  background-color: black;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 50px 20px;
+}
+.contactForm {
+  border: 1px solid white;
+  width: 50%;
+  max-width: 650px;
+  height: 500px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;*/
+}
+.contactForm > h2 {
+  color: white;
+  padding: 0;
+  margin: 20px;
+  margin-left: 5%;
+  justify-self: left;
+  text-transform: uppercase;
+}
+.contactForm > input {
+  width: 90%;
+  padding: 10px;
+  margin: 0 auto;
+}
+.contactForm > textarea {
+  width: 90%;
+  padding: 0;
+  margin: 0 auto;
+  height: 150px;
+  resize: none;
+  overflow: scroll;
+}
+.contactForm > input[type="button"] {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 30px auto;
+  cursor: pointer;
+  width: 30%;
+}
+.social {
+  color: white;
+  width: 40%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social > h3 {
+  margin: 10px;
+}
+.socialLink {
+  display: flex;
+  padding: 25px;
+  width: 100%;
+  max-width: 500px;
+  justify-content: space-around;
+}
+.socialLink > a {
+  width: 25%;
+  height: auto;
+  max-width: 110px;
+  min-width: 50px;
+}
+
+footer {
+  height: 100px;
+  background-color: white;
+  height: 15vh;
+}
+.gallery {
+  max-width: 800px;
+
+  display: flex;
+  justify-content: center;
+  padding: 30px 20px;
+}
+.mySlides {
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+}
