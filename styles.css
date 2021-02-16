@@ -9,7 +9,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 20hv;
+  height: 25hv;
 }
 header > hr {
   width: 100%;
@@ -23,18 +23,20 @@ nav > a {
 
 .hello {
   display: flex;
-  height: 80hv;
+  height: 85hv;
+  margin-bottom: 10hv;
 }
 .helloFig {
   margin: 30px auto;
-  width: 66%;
+  width: 60%;
   max-width: 1280px;
   min-width: 640px;
+  display: flex;
+  flex-direction: column;
 }
 .helloVideo {
-  width: 100%;
-  height: auto;
-  margin: 0;
+  width: auto;
+  justify-items: center;
 }
 .helloText {
   text-align: justify;
