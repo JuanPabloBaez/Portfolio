@@ -112,15 +112,14 @@ nav > a {
 }
 .socialLink {
   display: flex;
-  padding: 25px;
   width: 100%;
   max-width: 500px;
+  height: 150px;
   justify-content: space-around;
 }
 .socialLink > a {
-  
-  max-width: 110px;
-  min-width: 50px;
+  width: 25%;
+  max-width: 100px;
 }
 
 footer {
