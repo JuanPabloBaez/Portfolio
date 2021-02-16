@@ -42,7 +42,7 @@ nav > a {
   font-size: 1.2em;
   line-height: 1.8em;
   letter-spacing: 1px;
-  text-emphasis-style: ;
+  
 }
 .helloText > a {
   text-decoration: none;
@@ -118,8 +118,7 @@ nav > a {
   justify-content: space-around;
 }
 .socialLink > a {
-  width: 25%;
-  height: auto;
+  
   max-width: 110px;
   min-width: 50px;
 }
