@@ -8,8 +8,8 @@
 header {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  height: 25hv;
+  align-items: center; 
+  height: 25hv; !important
 }
 header > hr {
   width: 100%;
@@ -28,7 +28,7 @@ nav > a {
 }
 .helloFig {
   margin: 30px auto;
-  width: 60%;
+  width: 55%;
   max-width: 1280px;
   min-width: 640px;
   display: flex;
@@ -127,11 +127,15 @@ nav > a {
 footer {
   height: 100px;
   background-color: white;
-  height: 15vh;
+  border: 1px solid black;
 }
-.gallery {
-  max-width: 800px;
 
+
+
+
+.gallery {
+  height: 80vh;
+  width: auto;
   display: flex;
   justify-content: center;
   padding: 30px 20px;
@@ -141,3 +145,16 @@ footer {
   height: auto;
   justify-content: center;
 }
+
+.w3-button {
+  height: 60px;
+}
+
+
+.noWeb {
+  height: 70vh;
+}
+.underCon {
+  margin: 10% 5%;
+}
+
