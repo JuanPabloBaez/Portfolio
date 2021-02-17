@@ -9,14 +9,25 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  height: 25hv; !important
+  height: 25hv; 
 }
 header > hr {
   width: 100%;
   margin-bottom: 10px;
 }
+nav {
+  display: flex;
+}
 nav > a {
   text-decoration: none;
+  color: grey;
+  padding: 5px 10px;
+}
+nav > a:hover {
+  text-decoration: line-through;
+}
+nav>p {
+  font-weight: bolder;
   color: grey;
   padding: 5px 10px;
 }
@@ -130,7 +141,20 @@ footer {
   border: 1px solid black;
 }
 
-
+.videos {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+.project {
+  margin: 50px 0;
+}
+.underText {
+  font-size: 18px;
+  padding: 25px;
+  font-style: italic;
+}
 
 
 .gallery {
@@ -138,8 +162,9 @@ footer {
   width: auto;
   display: flex;
   justify-content: center;
-  padding: 30px 20px;
+  padding: 15px
 }
+
 .mySlides {
   max-width: 100%;
   height: auto;
@@ -147,8 +172,27 @@ footer {
 }
 
 .w3-button {
-  height: 60px;
+  padding: 40px 15px;
+  height: 100px;
+  margin: auto 0;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  border: 1px solid grey;
+  border-radius: 10px;
 }
+.w3-button:hover {
+  opacity: 40%;
+}
+.w3-button:active {
+  border-style: none;
+}
+.w3-display-left {
+  position: relative;
+  left: 15px;;
+} 
+.w3-display-right {
+  position: relative;
+  right: 15px;;
+} 
 
 
 .noWeb {
