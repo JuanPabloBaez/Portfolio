@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />    
-    <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />-->
     <link rel="stylesheet" href="styles.css" />
     <title>JP Baez Gallery</title>
   </head>
@@ -17,34 +16,36 @@
       </nav>
     </header>
 
-    <section class="gallery w3-content w3-display-container">
+    <div class="gallery-container">
+      <section class="gallery">
 
-      <button class="w3-button w3-display-left" onclick="plusDivs(-1)">
-        &#10094;
-      </button>
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">
+          &#10094;
+        </button>
 
-      <img class="mySlides" src="images/collage/56.jpg" />
-      <img class="mySlides" src="images/collage/53.jpg" />
-      <img class="mySlides" src="images/collage/52.jpg" />
-      <img class="mySlides" src="images/collage/047.jpg" />
-      <img class="mySlides" src="images/collage/045.jpg" />
-      <img class="mySlides" src="images/collage/042.jpg" />
-      <img class="mySlides" src="images/collage/031.jpg" />
-      <img class="mySlides" src="images/collage/029.jpg" />
-      <img class="mySlides" src="images/collage/026.jpg" />
-      <img class="mySlides" src="images/collage/019.jpg" />
-      <img class="mySlides" src="images/collage/011.jpg" />
-      <img class="mySlides" src="images/collage/008.jpg" />
-      <img class="mySlides" src="images/collage/002.jpg" />
+        <img class="mySlides" src="images/collage/56.jpg" />
+        <img class="mySlides" src="images/collage/53.jpg" />
+        <img class="mySlides" src="images/collage/52.jpg" />
+        <img class="mySlides" src="images/collage/047.jpg" />
+        <img class="mySlides" src="images/collage/045.jpg" />
+        <img class="mySlides" src="images/collage/042.jpg" />
+        <img class="mySlides" src="images/collage/031.jpg" />
+        <img class="mySlides" src="images/collage/029.jpg" />
+        <img class="mySlides" src="images/collage/026.jpg" />
+        <img class="mySlides" src="images/collage/019.jpg" />
+        <img class="mySlides" src="images/collage/011.jpg" />
+        <img class="mySlides" src="images/collage/008.jpg" />
+        <img class="mySlides" src="images/collage/002.jpg" />
 
-      
-      <button class="w3-button w3-display-right" onclick="plusDivs(+1)">
-        &#10095;
-      </button>
-    </section>
+        
+        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">
+          &#10095;
+        </button>
+      </section>
+    </div>
 
     <footer>
-      <p>some legal stuff</p>
+      <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Juan Pablo Baez</p>
     </footer>
 
     <script>
