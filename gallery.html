@@ -23,19 +23,19 @@
           &#10094;
         </button>
 
-        <img class="mySlides" src="images/collage/56.jpg" />
-        <img class="mySlides" src="images/collage/53.jpg" />
-        <img class="mySlides" src="images/collage/52.jpg" />
-        <img class="mySlides" src="images/collage/047.jpg" />
-        <img class="mySlides" src="images/collage/045.jpg" />
-        <img class="mySlides" src="images/collage/042.jpg" />
-        <img class="mySlides" src="images/collage/031.jpg" />
-        <img class="mySlides" src="images/collage/029.jpg" />
-        <img class="mySlides" src="images/collage/026.jpg" />
-        <img class="mySlides" src="images/collage/019.jpg" />
-        <img class="mySlides" src="images/collage/011.jpg" />
-        <img class="mySlides" src="images/collage/008.jpg" />
-        <img class="mySlides" src="images/collage/002.jpg" />
+        <img class="mySlides" src="images/collage/56.jpg" draggable="false"/>
+        <img class="mySlides" src="images/collage/53.jpg" draggable="false"/>
+        <img class="mySlides" src="images/collage/52.jpg" draggable="false"/>
+        <img class="mySlides" src="images/collage/047.jpg" draggable="false"/>
+        <img class="mySlides" src="images/collage/045.jpg" draggable="false"/>
+        <img class="mySlides" src="images/collage/042.jpg" draggable="false"/>
+        <img class="mySlides" src="images/collage/031.jpg" draggable="false"/>
+        <img class="mySlides" src="images/collage/029.jpg" draggable="false"/>
+        <img class="mySlides" src="images/collage/026.jpg" draggable="false"/>
+        <img class="mySlides" src="images/collage/019.jpg" draggable="false"/>
+        <img class="mySlides" src="images/collage/011.jpg" draggable="false"/>
+        <img class="mySlides" src="images/collage/008.jpg" draggable="false"/>
+        <img class="mySlides" src="images/collage/002.jpg" draggable="false"/>
 
         
         <button class="w3-button w3-display-right" onclick="plusDivs(+1)">
@@ -70,6 +70,12 @@
         }
         x[slideIndex - 1].style.display = "block";
       }
+
+      document.addEventListener("contextmenu", function(e){
+    if (e.target.nodeName === "IMG") {
+        e.preventDefault();
+    }
+}, false);
     </script>
   </body>
 </html>
