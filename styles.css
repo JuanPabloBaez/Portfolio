@@ -8,7 +8,7 @@
             /* ---------- HEADER --------*/
 
 header {
-  height: 25vh;
+  height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center; 
@@ -40,11 +40,11 @@ nav > a:hover {
 
 .hello {
   display: flex;
-  margin: 3% auto;
+  margin: 1% auto;
   max-width: 900px;
   width: 95%;
   
-  
+   
 }
 .helloFig {
   width: 100%;
@@ -54,14 +54,14 @@ nav > a:hover {
 }
 .helloVideo {
   width: auto;
-  justify-items: center;
+ /*  justify-items: center; */
 }
 .helloText {
   font-family: 'Arvo', serif;
   text-align: justify;
   width: 70%;
   margin: 5% auto;
-  font-size: 1.7em;
+  font-size: 1.5em;
   line-height: 1.8em;
   letter-spacing: 1px;
   font-style: italic;  
