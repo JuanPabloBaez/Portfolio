@@ -71,6 +71,7 @@ nav p {
 .hello {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   margin: 1% auto;
   max-width: 900px;
   width: 95%;
